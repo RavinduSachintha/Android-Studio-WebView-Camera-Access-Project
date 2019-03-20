@@ -2,3 +2,4 @@
 .idea/
 build/
 android-PermissionRequest-master.iml
+local.properties
