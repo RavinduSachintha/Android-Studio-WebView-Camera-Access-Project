@@ -80,7 +80,7 @@ public class PermissionRequestFragment extends Fragment
                 != PackageManager.PERMISSION_GRANTED) {
             requestCameraPermission();
         } else {
-            mWebView.loadUrl("https://ravindusachintha.github.io/dialogflow-rest/sample.html");
+            mWebView.loadUrl("https://ravindusachintha.github.io/dialogflow-rest/");
         }
     }
 
@@ -99,7 +99,7 @@ public class PermissionRequestFragment extends Fragment
                     grantResults[0] != PackageManager.PERMISSION_GRANTED) {
                 System.out.println("Camera permission not granted.");
             } else if (mWebView != null) {
-                mWebView.loadUrl("https://ravindusachintha.github.io/dialogflow-rest/sample.html");
+                mWebView.loadUrl("https://ravindusachintha.github.io/dialogflow-rest/");
             }
         } else {
             super.onRequestPermissionsResult(requestCode, permissions, grantResults);
