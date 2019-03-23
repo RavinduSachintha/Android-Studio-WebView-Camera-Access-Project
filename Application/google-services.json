@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "618931079152",
+    "firebase_url": "https://hackaholics-memorymate.firebaseio.com",
+    "project_id": "hackaholics-memorymate",
+    "storage_bucket": "hackaholics-memorymate.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:618931079152:android:c6b019cf81da0b67",
+        "android_client_info": {
+          "package_name": "com.example.memorymate"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "618931079152-58g3ul9nbr2nk5cbl6iqhrrc0hngbbtg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBEMPCi2axPEe5JMMvusATmnAfXzDIZMUs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

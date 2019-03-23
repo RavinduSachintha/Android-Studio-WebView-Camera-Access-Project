@@ -1,5 +1,29 @@
+buildscript {
+    repositories {
+        google()
+        jcenter()
+        mavenLocal()
+    }
+    dependencies {
+        classpath 'com.google.gms:google-services:4.2.0'
+        classpath 'com.google.firebase:firebase-plugins:1.1.5'
+    }
+}
 
+repositories {
+    google()
+}
 
+allprojects {
+    // ...
+    repositories {
+        // Check that you have the following line (if not, add it):
+        google()  // Google's Maven repository
+        // ...
+        mavenLocal()
+        jcenter()
+    }
+}
 
 
 

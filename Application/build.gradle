@@ -22,6 +22,8 @@ dependencies {
     compile "com.android.support:support-v13:27.0.2"
     compile "com.android.support:cardview-v7:27.0.2"
     compile "com.android.support:appcompat-v7:27.0.2"
+    implementation "com.google.firebase:firebase-messaging:17.4.0"
+    implementation 'com.google.firebase:firebase-core:16.0.1'
 }
 
 // The sample build uses multiple directories to
@@ -60,3 +62,5 @@ android {
     }
 
 }
+
+apply plugin: 'com.google.gms.google-services'
