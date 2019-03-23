@@ -15,7 +15,7 @@
  limitations under the License.
 -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.memorymate"
+    package="com.example.android.permissionrequest"
     android:versionCode="1"
     android:versionName="1.0">
 
@@ -36,7 +36,7 @@
             </intent-filter>
         </service>
 
-        <activity android:name="com.example.android.permissionrequest.MainActivity"
+        <activity android:name=".MainActivity"
                   android:label="@string/app_name">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -44,7 +44,7 @@
             </intent-filter>
         </activity>
 
-        <activity android:name="com.example.android.permissionrequest.ChatActivity">
+        <activity android:name=".ChatActivity">
         </activity>
 
     </application>
